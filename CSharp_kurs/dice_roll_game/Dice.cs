@@ -10,6 +10,6 @@ public class Dice
     public int Number { get; }
     public Dice()
     {
-        Number = new Random().Next(1,6);
+        Number = new Random().Next(1,7);
     }
 }
